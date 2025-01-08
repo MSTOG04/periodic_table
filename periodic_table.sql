@@ -126,21 +126,25 @@ INSERT INTO public.elements VALUES (6, 'C', 'Carbon');
 INSERT INTO public.elements VALUES (7, 'N', 'Nitrogen');
 INSERT INTO public.elements VALUES (8, 'O', 'Oxygen');
 INSERT INTO public.elements VALUES (1000, 'Mt', 'moTanium');
+INSERT INTO public.elements VALUES (9, 'F', 'Fluorine');
+INSERT INTO public.elements VALUES (10, 'Ne', 'Neon');
 
 
 --
 -- Data for Name: properties; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.properties VALUES (1, 'nonmetal', 1.008000, -259.1, -252.9, 3);
-INSERT INTO public.properties VALUES (2, 'nonmetal', 4.002600, -272.2, -269, 3);
-INSERT INTO public.properties VALUES (3, 'metal', 6.940000, 180.54, 1342, 1);
-INSERT INTO public.properties VALUES (4, 'metal', 9.012200, 1287, 2470, 1);
-INSERT INTO public.properties VALUES (5, 'metalloid', 10.810000, 2075, 4000, 2);
-INSERT INTO public.properties VALUES (6, 'nonmetal', 12.011000, 3550, 4027, 3);
-INSERT INTO public.properties VALUES (7, 'nonmetal', 14.007000, -210.1, -195.8, 3);
-INSERT INTO public.properties VALUES (8, 'nonmetal', 15.999000, -218, -183, 3);
-INSERT INTO public.properties VALUES (1000, 'metalloid', 1.000000, 10, 100, 2);
+INSERT INTO public.properties VALUES (1, 'nonmetal', 1.008, -259.1, -252.9, 3);
+INSERT INTO public.properties VALUES (2, 'nonmetal', 4.0026, -272.2, -269, 3);
+INSERT INTO public.properties VALUES (3, 'metal', 6.94, 180.54, 1342, 1);
+INSERT INTO public.properties VALUES (4, 'metal', 9.0122, 1287, 2470, 1);
+INSERT INTO public.properties VALUES (5, 'metalloid', 10.81, 2075, 4000, 2);
+INSERT INTO public.properties VALUES (6, 'nonmetal', 12.011, 3550, 4027, 3);
+INSERT INTO public.properties VALUES (7, 'nonmetal', 14.007, -210.1, -195.8, 3);
+INSERT INTO public.properties VALUES (8, 'nonmetal', 15.999, -218, -183, 3);
+INSERT INTO public.properties VALUES (1000, 'metalloid', 1, 10, 100, 2);
+INSERT INTO public.properties VALUES (9, 'nonmetal', 18.998, -220, -188.1, 3);
+INSERT INTO public.properties VALUES (10, 'nonmetal', 20.18, -248.6, -246.1, 3);
 
 
 --
